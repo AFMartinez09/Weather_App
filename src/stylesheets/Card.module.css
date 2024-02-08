@@ -1,0 +1,35 @@
+.cardContainer {
+    width: 500px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    border: 5px solid rgba(94, 94, 94, 0.5);
+    background-color: rgb(196, 233, 234);
+    color:rgb(37, 37, 37);
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 20px;
+} 
+
+.a {
+    justify-content: center;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.buttonInfo {
+    text-align: center;
+    margin: auto;
+}
+.moreInfo:hover{
+    background-color: rgb(66, 156, 241);
+    color:azure;
+}
+.moreInfo {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+}

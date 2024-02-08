@@ -1,0 +1,56 @@
+.detailContainer {
+    width: 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgb(87, 87, 87);
+    background-color: rgb(196, 233, 234);
+    border-radius: 30px;
+}
+
+.namCity {
+    font-size: 30px;
+    color: rgb(37, 37, 37);
+}
+
+.mainWeather{
+    width: 100px;
+    border: 1px solid rgba(87, 87, 87, 0.34);
+    border-radius: 50%;
+}
+
+.moreInfo{
+    list-style: none;
+    justify-content: center;        
+}
+
+/* li{
+    list-style: none;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    justify-content: center;
+    border: 3px solid rgba(10, 68, 240, 0.16);
+} */
+
+
+.backButton {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 5px;
+    margin-bottom: 15px;
+}
+
+.backButton:hover {
+    background-color: rgba(10, 68, 240, 0.2);
+}
+
+
+

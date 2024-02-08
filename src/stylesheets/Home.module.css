@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.webTitle{
+  color: rgba(1, 1, 25, 0.927);
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+input{
+  height: 30px;
+  border-radius:  5px;
+  font-size: 20px;
+}
+
+input:hover{
+  background-color: rgba(57, 65, 209, 0.2);
+}
