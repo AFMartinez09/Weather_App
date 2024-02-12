@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavLink, useParams, } from "react-router-dom";
 import styles from '../stylesheets/Detail.module.css';
+import Loading from "./Loading";
 
 const apiKey = 'b10377933e04421eddbadea2dd65fc9f';
 const URL = 'https://api.openweathermap.org/data/2.5/weather';
@@ -31,7 +32,7 @@ const [loading, setLoading] = useState(true);
 
 
   return (
-    loading ? (<div>Loading...</div>) : (
+    loading ? (<div> <Loading/> </div>) : (
       <div className={styles.detailContainer}>
         <span className={styles.nameCity}>
         <h2>{detailWeather.name}, {detailWeather.sys.country}</h2>

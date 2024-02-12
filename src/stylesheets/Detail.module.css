@@ -26,16 +26,13 @@
     justify-content: center;        
 }
 
-/* li{
+ li{
     list-style: none;
-    justify-content: center;
 }
 
 ul{
     list-style: none;
-    justify-content: center;
-    border: 3px solid rgba(10, 68, 240, 0.16);
-} */
+}
 
 
 .backButton {
